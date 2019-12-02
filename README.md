@@ -12,7 +12,7 @@ Timer - var diffr = moment.duration(moment(expirydate).diff(moment(date))); is u
 
 # Work Distribution
 
-Salwa Mittouli (1917003)- Developed the Circular Progress Bar and Time lapse function.
+Salwa Mitouilli (1917003)- Developed the Circular Progress Bar and Time lapse function.
 
 Zaiton Binti Ahmad Maideen (1523388) - Developed the Step Counter and styled the interface.
 

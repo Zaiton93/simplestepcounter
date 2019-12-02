@@ -4,11 +4,11 @@ This app also has a timelapse function where for now, can be manually set via th
 
 This app consist of 3 parts namely the step counter, the circular bar and the timer.
 
-Step Counter - Pedometer.isAvailableAsync() is a function used to detect the sensor in the smartphone which also helps the step counter to count when there is movement. In the package, expo-sensors are used to call/activate the sensors where to enable it to work with the code and allow the step counter to work. 
+Step Counter: Pedometer.isAvailableAsync() is a function used to detect the sensor in the smartphone which also helps the step counter to count when there is movement. In the package, expo-sensors are used to call/activate the sensors where to enable it to work with the code and allow the step counter to work. 
 
-Circular Progress Bar - This function shows progress if there is motion by the user. CircularProgress progress={this.state.currentStepCount} is the function used to correlate the progress and the movement of the user.
+Circular Progress Bar: This function shows progress if there is motion by the user. CircularProgress progress={this.state.currentStepCount} is the function used to correlate the progress and the movement of the user.
 
-Timer - var diffr = moment.duration(moment(expirydate).diff(moment(date))); is used to subtract the deadline with the current date to shoe the time remaining to achieve the goal.
+Timer: var diffr = moment.duration(moment(expirydate).diff(moment(date))); is used to subtract the deadline with the current date to show the time remaining to achieve the goal.
 
 # Work Distribution
 
